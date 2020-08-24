@@ -1,0 +1,3 @@
+exports.beta = [
+	"example" // example
+]
