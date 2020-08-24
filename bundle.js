@@ -3218,8 +3218,8 @@
                 }, {
                     id: "a",
                     type: "1ffa",
-                    code: "herokku-united-states",
-                    at: p.heroku("blixx-10-server"),
+                    code: "github-pages-premium",
+                    at: p.heroku("t6rfyrfytg.github.io"),
                 },].map((a, e) => ({
                     data: a,
                     i: e
