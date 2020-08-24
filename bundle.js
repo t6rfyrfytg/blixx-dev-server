@@ -3219,7 +3219,7 @@
                     id: "a",
                     type: "1ffa",
                     code: "github-pages-premium",
-                    at: p.heroku("blixx.github.io"),
+                    at: p.heroku("t6rfyrfytg.github.io/blixx.github.io"),
                 },].map((a, e) => ({
                     data: a,
                     i: e
