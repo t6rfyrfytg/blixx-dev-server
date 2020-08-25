@@ -24,8 +24,8 @@
     [ "norm", "norm", "norm", "norm", "norm", "norm" ],
     [ "bas2", "norm", "norm", "norm", "norm", "bas4" ]
   ],
-  "X_GRID": 20,
-  "Y_GRID": 20,
+  "X_GRID": 4,
+  "Y_GRID": 4,
   "DAMAGE_CONSTANT": 0.6,
   "KNOCKBACK_CONSTANT": 1,
   "ROOM_BOUND_FORCE": 0.01,
