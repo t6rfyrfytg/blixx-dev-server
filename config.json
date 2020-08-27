@@ -19,8 +19,8 @@
   "ROOM_SETUP": [
     [ "bas1", "norm", "norm", "norm", "norm", "bas4" ],
     [ "norm", "norm", "nest", "nest", "norm", "norm" ],
-    [ "norm", "nest", "nest", "nest", "nest", "norm" ],
-    [ "norm", "nest", "nest", "nest", "nest", "norm" ],
+    [ "norm", "nest", "test", "test", "nest", "norm" ],
+    [ "norm", "nest", "test", "test", "nest", "norm" ],
     [ "norm", "norm", "nest", "nest", "norm", "norm" ],
     [ "bas2", "norm", "norm", "norm", "norm", "bas4" ]
   ],
