@@ -67,7 +67,7 @@ const room = {
         room[type] = output;
     };
     room.findType('nest');
-    room.findType('norm');
+    room.findType('gren');
     room.findType('bas1');
     room.findType('bas2');
     room.findType('bas3');
