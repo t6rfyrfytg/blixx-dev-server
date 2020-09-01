@@ -4623,15 +4623,16 @@ var maintainloop = (() => {
                 room['bas' + i].forEach((loc) => { f(loc, i); }); 
             }*/
         
-        let makenpcs = (() => {
-            let f = (loc, team) => { 
-                let o = new Entity(loc);
-                    o.define(Class.mblx);
-                    o.team = -team;
-                    o.color = [10, 11, 12, 15][team-1];
+        let testRoom = new Entity(room.randomType('teth'));
+let testRoomSize = 58;
+testRoom.define(Class.bot);
+testRoom.define(Class.clms);
+testRoom.name = "Test Room";
+testRoom.team = -100;
+testRoom.SIZE = 58;
             };
             for (let i=1; i<5; i++) {
-                room['teth'].forEach((loc) => { f(loc, i); }); 
+                room['teth' + i].forEach((loc) => { f(loc, i); }); 
             }
 
 
