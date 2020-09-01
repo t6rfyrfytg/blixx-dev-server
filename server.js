@@ -4615,7 +4615,7 @@ var maintainloop = (() => {
         // Make base protectors if needed.
             /*let f = (loc, team) => { 
                 let o = new Entity(loc);
-                    o.define(Class.baseProtector);
+                    o.define(Class.mblx);
                     o.team = -team;
                     o.color = [10, 11, 12, 15][team-1];
             };
@@ -4629,7 +4629,10 @@ testRoom.define(Class.clms);
 testRoom.name = "Test Spawn";
 testRoom.team = -100;
 testRoom.SIZE = testRoomSize;
-        
+    };
+    for (let i=1; i<5; i++) {
+ room['teth'].forEach((loc)
+    }  
         // Return the spawning function
         let bots = [];
         return () => {
