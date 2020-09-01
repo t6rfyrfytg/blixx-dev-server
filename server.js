@@ -4622,17 +4622,19 @@ var maintainloop = (() => {
             for (let i=1; i<5; i++) {
                 room['bas' + i].forEach((loc) => { f(loc, i); }); 
             }*/
-        let testRoom = new Entity(room.randomType('teth'));
-let testRoomSize = 58;
-testRoom.define(Class.bot);
-testRoom.define(Class.clms);
-testRoom.name = "Test Spawn";
-testRoom.team = -100;
-testRoom.SIZE = testRoomSize;
-    };
-    for (let i=1; i<5; i++) {
- room['teth'].forEach((loc)
-    }  
+        
+        let makenpcs = (() => {
+            let f = (loc, team) => { 
+                let o = new Entity(loc);
+                    o.define(Class.mblx);
+                    o.team = -team;
+                    o.color = [10, 11, 12, 15][team-1];
+            };
+            for (let i=1; i<5; i++) {
+                room['teth'].forEach((loc) => { f(loc, i); }); 
+            }
+
+
         // Return the spawning function
         let bots = [];
         return () => {
