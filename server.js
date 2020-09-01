@@ -4622,6 +4622,14 @@ var maintainloop = (() => {
             for (let i=1; i<5; i++) {
                 room['bas' + i].forEach((loc) => { f(loc, i); }); 
             }*/
+        let testRoom = new Entity(room.randomType('teth'));
+let testRoomSize = 58;
+testRoom.define(Class.bot);
+testRoom.define(Class.clms);
+testRoom.name = "Test Spawn";
+testRoom.team = -100;
+testRoom.SIZE = testRoomSize;
+        
         // Return the spawning function
         let bots = [];
         return () => {
