@@ -22,7 +22,7 @@ Array.prototype.remove = index => {
     if(index === this.length - 1){
         return this.pop();
     } else {
-        let r = this[index];
+//         let r = this[index];
         this[index] = this.pop();
         return r;
     }
@@ -4610,8 +4610,8 @@ var maintainloop = (() => {
                 o.team = -100;
         }
     };
-    // The NPC function
-    let makenpcs = (() => {
+    //The NPC Function
+     let makenpcs = (() => {
         // Make base protectors if needed.
             let f = (loc, team) => { 
                 let o = new Entity(loc);
@@ -4620,7 +4620,7 @@ var maintainloop = (() => {
                     o.color = [10, 11, 12, 15][team-1];
             };
             for (let i=1; i<5; i++) {
-                room['teth' + i].forEach((loc) => { f(loc, i); }); 
+                room['bas' + i].forEach((loc) => { f(loc, i); }); 
             }
         
         //let testRoom = new Entity(room.randomType('teth'));
