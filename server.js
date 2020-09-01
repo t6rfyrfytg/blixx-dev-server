@@ -4616,6 +4616,11 @@ var maintainloop = (() => {
             let f = (loc, team) => { 
                 let o = new Entity(loc);
                     o.define(Class.clms);
+                    o.define(Class.elite_destroyer);
+                    o.define(Class.elite_gunner);
+                    o.define(Class.elite_sprayer);
+                    o.define(Class.palisade);
+                    o.define(Class.bot);
                     o.team = -team;
                     o.color = [10, 11, 12, 15][team-1];
             };
