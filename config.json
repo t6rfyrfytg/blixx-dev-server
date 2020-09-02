@@ -17,16 +17,16 @@
   "RANDOM_COLORS": false,
   "BANNED_CHARACTER_REGEX": "/[\uFDFD\u200E\u0000]/gi", 
   "ROOM_SETUP": [
-    [ "teth", "norm", "norm", "norm", "norm", "norm", "norm", "norm", "teth" ],
+    [ "sgld", "norm", "norm", "norm", "norm", "norm", "norm", "norm", "sgld" ],
     [ "norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm" ],
     [ "norm", "norm", "nest", "nest", "nest", "nest", "nest", "norm", "norm" ],
     [ "norm", "norm", "nest", "norm", "norm", "norm", "nest", "norm", "norm" ],
-    [ "norm", "norm", "nest", "norm", "sgld", "norm", "nest", "norm", "norm" ],
-    [ "norm", "norm", "nest", "norm", "norm", "norm", "nest", "norm", "norm" ],
+    [ "norm", "norm", "nest", "norm", "teth", "norm", "nest", "norm", "norm" ],
+    [ "norm", "norm", "nest", "norm", "teth", "norm", "nest", "norm", "norm" ],
     [ "norm", "norm", "nest", "norm", "norm", "norm", "nest", "norm", "norm" ],
     [ "norm", "norm", "nest", "nest", "nest", "nest", "nest", "norm", "norm" ],
     [ "norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm" ],
-    [ "teth", "norm", "norm", "norm", "norm", "norm", "norm", "norm", "teth" ]
+    [ "sgld", "norm", "norm", "norm", "norm", "norm", "norm", "norm", "sgld" ]
   ],
   "X_GRID": 4,
   "Y_GRID": 4,
