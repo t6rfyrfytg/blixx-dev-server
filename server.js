@@ -22,7 +22,7 @@ Array.prototype.remove = index => {
     if(index === this.length - 1){
         return this.pop();
     } else {
-//         let r = this[index];
+        let r = this[index];
         this[index] = this.pop();
         return r;
     }
@@ -68,7 +68,6 @@ const room = {
     };
     room.findType('nest');
     room.findType('norm');
-    room.findType('gren');
     room.findType('bas1');
     room.findType('bas2');
     room.findType('bas3');
@@ -4610,36 +4609,18 @@ var maintainloop = (() => {
                 o.team = -100;
         }
     };
-    //The NPC Function
-     let makenpcs = (() => {
+    // The NPC function
+    let makenpcs = (() => {
         // Make base protectors if needed.
-            let f = (loc, team) => { 
+            /*let f = (loc, team) => { 
                 let o = new Entity(loc);
-                    o.define(Class.clms);
-                    o.define(Class.elite_destroyer);
-                    o.define(Class.elite_gunner);
-                    o.define(Class.elite_sprayer);
-                    o.define(Class.palisade);
+                    o.define(Class.baseProtector);
                     o.team = -team;
                     o.color = [10, 11, 12, 15][team-1];
-     
             };
             for (let i=1; i<5; i++) {
                 room['bas' + i].forEach((loc) => { f(loc, i); }); 
-            }
-        
-        //let testRoom = new Entity(room.randomType('teth'));
-//let testRoomSize = 58;
-//testRoom.define(Class.bot);
-//testRoom.define(Class.clms);
-//testRoom.name = "Test Room";
-//testRoom.team = -100;
-//testRoom.SIZE = 58;
-            //};
-            //for (let i=1; i<5; i++) {
-                //room['teth' + i].forEach((loc) => { f(loc, i); }); 
-            //}
-    
+            }*/
         // Return the spawning function
         let bots = [];
         return () => {
