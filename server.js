@@ -4610,10 +4610,10 @@ var maintainloop = (() => {
         }
     };
     // The NPC function
-    let makenpcs = (() => {
+    //let makenpcs = (() => {
         // Make base protectors if needed.
-   let f = (loc, team) => { 
-            let o = new Entity(loc);
+   //let f = (loc, team) => { 
+            /*let o = new Entity(loc);
                 o.define(Class.baseProtector);
                 o.team = -team;
                 o.color = [10, 12, 11, 15][team-1];
@@ -4631,7 +4631,7 @@ var maintainloop = (() => {
         }
         // ======================================
           
-        };
+        };*/
         for (let i=1; i<5; i++) {
             room['bas' + i].forEach((loc) => { f(loc, i); }); 
         }
