@@ -68,6 +68,7 @@ const room = {
     };
     room.findType('nest');
     room.findType('norm');
+    room.findType('deth');
     room.findType('bas1');
     room.findType('bas2');
     room.findType('bas3');
